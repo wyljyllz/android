@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+        <EditText android:id="@+id/inputData"
+            android:hint="请输入："
+            ></EditText>
+        <Button
+            android:id="@+id/writeOutData"
+            android:text="写入外部数据">
+
+        </Button>
+        <Button
+            android:id="@+id/readOutData"
+            android:text="读取外部数据">
+
+        </Button>
+        <Button
+            android:id="@+id/writeInnerData"
+            android:text="写入内部数据">
+
+        </Button>
+        <Button
+            android:id="@+id/readInnerData"
+            android:text="读取内部数据">
+
+        </Button>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
