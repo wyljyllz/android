@@ -1,12 +1,4 @@
----
-title: android远程数据采集与控制应用
-date: 2021-04-27 14:20:14
-categories:
- -school
-tags:
- -课程报告
 
----
 
 ## 一、案例简介
 
